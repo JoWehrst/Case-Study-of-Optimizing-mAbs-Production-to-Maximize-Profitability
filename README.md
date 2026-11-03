@@ -248,7 +248,7 @@ Figure 4 shows the predicted mAb production profile for the selected initial con
 
 Based on the optimization results, the recommended initial conditions are 10 mM glucose, 2 mM glutamine, and an initial VCD of 4.00x10^5 cells/mL, with a recommended harvest time of 3 days. Under these conditions, the estimated cell culture cost is \$340/L. At harvest, the estimated cell culture value is \$707.35/L, with a 95% prediction interval ranging from \$563.35 to \$860.72/L. This represents the estimated economic value of the mAb produced by the culture at Day 3.
 
-The resulting estimated STP is \$91.84/(L·day), with a 95% prediction interval of \$55.84 to \$130.18/(L·day). STP represents the estimated profit after subtracting the cell culture cost from the mAb value, divided by the total batch duration, including the one-day downtime between batches. The estimated mAb STY is 0.17683 mg/(L·day), with a 95% prediction interval of 0.14084 to 0.21518 mg/(L·day). STY represents the amount of mAb produced per litre of culture per day, including downtime between batches. Unlike STP, STY measures production efficiency without accounting for the economic value of the product or the cost of the culture. Overall, these results identify the initial conditions and harvest time that provide the highest estimated economic return per unit volume and time among the conditions evaluated.
+The resulting estimated STP is \$91.84/(L·day), with a 95% prediction interval of \$55.84 to \$130.18/(L·day). STP represents the estimated profit after subtracting the cell culture cost from the mAb value, divided by the total batch duration, including the one-day downtime between batches. The estimated mAb STY is 0.17683 mg/(L·day), with a 95% prediction interval of 0.14084 to 0.21518 mg/(L·day). STY represents the amount of mAb produced per litre of culture per day, including downtime between batches. Unlike STP, STY measures production efficiency without accounting for the economic value of the product or the cost of the culture. In conclustion, these results identify the initial conditions and harvest time that provide the highest estimated economic return per unit volume and time among the conditions evaluated.
 
 
 
@@ -264,28 +264,3 @@ The resulting estimated STP is \$91.84/(L·day), with a 95% prediction interval 
 [5] Butler M, Christie A. Adaptation of mammalian cells to non-ammoniagenic media. Cytotechnology. 1994;15(1-3):87-94. doi: 10.1007/BF00762382. PMID: 7765956.
 
 [6] Reuveny S, Velez D, Macmillan JD, Miller L. Factors affecting cell growth and monoclonal antibody production in stirred reactors. J Immunol Methods. 1986 Jan 22;86(1):53-9. doi: 10.1016/0022-1759(86)90264-4. PMID: 3944469.
-=======
-# Repository Structure
-
-`datasets/`: Store raw data in this directory. Delete `.gitkeep` once you add your own files to this directory.
-
-`figures/`: Export figures created by your code to this directory. Delete `.gitkeep` once you add your own files to this
-directory.
-
-`src/`: Store all Python code, except main.py, in this directory.
-
-`tables/`: Export tables created by your code to this directory. Delete `.gitkeep` once you add your own files to this
-directory.
-
-`.gitignore`: Contains files to be ignored by Git. You can copy the `.gitignore` file from this repository into your own
-project.
-
-`environment.yaml`: Contains information about your conda environment. Run the following command:
-`conda export > environment.yaml` to generate this file for your project. You can delete the last line in this file that
-says `prefix`.
-
-`main.py`: This is the only Python file that will be run. It should be kept relatively clean and mainly execute code
-from `src/`.
-
-`README.md`: This file, which contains information about the repository.
->>>>>>> 0bc8a4725e751c81d6c0027649197985d389a77a
