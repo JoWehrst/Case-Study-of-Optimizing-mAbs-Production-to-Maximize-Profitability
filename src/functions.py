@@ -2,6 +2,7 @@
 # FUNCTIONS
 # Define reusable helper functions in this file.
 # =======================================================================
+<<<<<<< HEAD
 import os
 
 import sys
@@ -163,3 +164,8 @@ def generate_x_lag_cur_var(p, batch_ids, df, features, col_batch="Batch ID", col
 
     return x_lag, x_cur, t_cur, b_cur
 
+=======
+
+def calculate_average(values):
+    return sum(values) / len(values)
+>>>>>>> 0bc8a4725e751c81d6c0027649197985d389a77a

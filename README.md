@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Optimization of mAbs Initial Conditions to Maximize Profits
 In this project, we attempt to do a case study where a pharmaceutical company is producing antibodies to help treat cancer. This code is uses a Non-linear Vector Autoregression Model (NVAR) to determine the best models to predict the effects of glucose (mM), glutamine (mM), and viable cell density or VCD (cells/mL) on monoclonal antibodies (mAbs) production. Using this model we attempt find the optimal starting conditions for the maximum space-time profit for this company.
@@ -263,3 +264,28 @@ The resulting estimated STP is \$91.84/(L·day), with a 95% prediction interval 
 [5] Butler M, Christie A. Adaptation of mammalian cells to non-ammoniagenic media. Cytotechnology. 1994;15(1-3):87-94. doi: 10.1007/BF00762382. PMID: 7765956.
 
 [6] Reuveny S, Velez D, Macmillan JD, Miller L. Factors affecting cell growth and monoclonal antibody production in stirred reactors. J Immunol Methods. 1986 Jan 22;86(1):53-9. doi: 10.1016/0022-1759(86)90264-4. PMID: 3944469.
+=======
+# Repository Structure
+
+`datasets/`: Store raw data in this directory. Delete `.gitkeep` once you add your own files to this directory.
+
+`figures/`: Export figures created by your code to this directory. Delete `.gitkeep` once you add your own files to this
+directory.
+
+`src/`: Store all Python code, except main.py, in this directory.
+
+`tables/`: Export tables created by your code to this directory. Delete `.gitkeep` once you add your own files to this
+directory.
+
+`.gitignore`: Contains files to be ignored by Git. You can copy the `.gitignore` file from this repository into your own
+project.
+
+`environment.yaml`: Contains information about your conda environment. Run the following command:
+`conda export > environment.yaml` to generate this file for your project. You can delete the last line in this file that
+says `prefix`.
+
+`main.py`: This is the only Python file that will be run. It should be kept relatively clean and mainly execute code
+from `src/`.
+
+`README.md`: This file, which contains information about the repository.
+>>>>>>> 0bc8a4725e751c81d6c0027649197985d389a77a
