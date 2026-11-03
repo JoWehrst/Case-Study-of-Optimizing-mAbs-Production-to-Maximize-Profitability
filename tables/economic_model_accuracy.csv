@@ -1,0 +1,2 @@
+Model,NVAR p,Number of validation batches,Mean mAb RMSE [mg/L],SD mAb RMSE [mg/L]
+Polynomial,3,12,0.08683731079472067,0.029845974343059672
